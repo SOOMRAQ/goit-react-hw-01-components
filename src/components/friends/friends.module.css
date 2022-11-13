@@ -1,0 +1,44 @@
+.friendsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: transform 400ms ease, background-color 400ms ease;
+}
+
+.item:hover {
+  transform: scale(1.03);
+  background-color: lightblue;
+}
+
+.statusOffline {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: firebrick;
+}
+
+.statusOnline {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.name {
+  font-size: 20px;
+}

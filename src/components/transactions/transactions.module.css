@@ -1,0 +1,28 @@
+.transactions {
+  margin: 50px auto;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  overflow: hidden;
+  border-spacing: 0;
+  cursor: pointer;
+}
+
+.transactions:hover thead {
+  background-color: firebrick;
+  color: white;
+}
+
+thead {
+  background-color: lightblue;
+  transition: background-color 400ms ease, color 400ms ease;
+}
+
+th {
+  height: 50px;
+  width: 150px;
+}
+td {
+  height: 30px;
+  text-align: center;
+}
