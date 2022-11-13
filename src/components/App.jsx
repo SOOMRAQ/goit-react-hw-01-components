@@ -7,6 +7,9 @@ import Statistics from './statistics/statistics';
 import friends from './friends/friends';
 import FriendsList from './friends/friendsList';
 
+import transactions from './transactions/transactions';
+import TransactionHistory from './transactions/transactionsHistory';
+
 export const App = () => {
   return (
     <div>
@@ -20,6 +23,7 @@ export const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
       <FriendsList friends={friends} />;
+      <TransactionHistory items={transactions} />;
     </div>
   );
 };
